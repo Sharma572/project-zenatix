@@ -19,12 +19,11 @@ background: linear-gradient(0deg, rgba(198,249,198,1) 0%, rgba(218,224,154,1) 10
 }
 .left-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,0.5fr));
     grid-gap:2rem;
 }
 .card{
     cursor: pointer;
-    width: 300px;       
+    width: 350px;       
     background-color:#03b3ff;
     border-radius: 1rem;
     box-shadow: 0 5px 5px rgba(0,0,0,0.5);
