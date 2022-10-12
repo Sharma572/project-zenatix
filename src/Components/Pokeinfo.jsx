@@ -1,9 +1,12 @@
 import React from "react";
 
 const Pokeinfo = ({ data }) => {
-//    console.log(data);
+
     return (
         <>
+
+
+<div class="modal-dialog modal-dialog-scrollable">
         {
             (!data) ? "" : (
                 <>
@@ -37,6 +40,8 @@ const Pokeinfo = ({ data }) => {
                 </>
             )
         }
+ 
+</div>
 
         </>
     )
