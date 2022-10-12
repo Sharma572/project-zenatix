@@ -5,7 +5,8 @@
     font-family: 'Roboto', sans-serif;
 }
 body{
-    background-color: #FCEEC8;
+    background: rgb(198,249,198);
+background: linear-gradient(0deg, rgba(198,249,198,1) 0%, rgba(218,224,154,1) 10%, rgba(9,117,121,0.835171568627451) 44%, rgba(0,212,255,1) 100%);
 }
 .container{
     width: 90%;
