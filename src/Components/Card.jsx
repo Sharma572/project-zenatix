@@ -14,7 +14,7 @@ const Card = ({ pokemon, loading,infoPokemon}) => {
                                 <h2>{item.id}</h2>
                                 <img src={item.sprites.front_default} alt="" />
                                 <h2>{item.name}</h2>
-                                <p>{item.types[0].type.name}</p>
+                                <p style={{color:'red',marginLeft:'8px'}}>{item.types[0].type.name}</p>
                                
                             </div>
                         </>

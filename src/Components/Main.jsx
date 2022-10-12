@@ -59,7 +59,7 @@ const Main=(props)=>{
 
                     </div>
                 </div>
-                <div className="right-content">
+                <div className="main-content">
                    <Pokeinfo data={pokeDex}/>
                 </div>
             </div>
